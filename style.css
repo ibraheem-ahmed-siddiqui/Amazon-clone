@@ -19,12 +19,14 @@
 
 .hoverborder {
 
+    /* sizing */
+
     /* spacing */
     padding: 5px;
 
     /* appearance */
     cursor: pointer;
-    border: 1px solid var(--dark);
+    border: 1px solid transparent;
 }
 
 .hoverborder:hover {
@@ -102,13 +104,17 @@
     height: 39px;
     width: 100%;
 
+    /* spacing */
+    gap: 20px;
+
     /* colors */
     background-color: var(--secondary-dark);
 }
 
-.menu {
+.secondaryAnchors {
 
     /* colors */
     color: var(--primary);
-    background-color: var(--secondary-dark);
+
+    text-decoration: none;
 }
