@@ -1,7 +1,12 @@
 * {
+
+    /* spacing */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* typography */
+    font-size: 0.95rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -103,12 +108,14 @@
 
     /* sizing */
     height: 40px;
+    width: fit-content;
 
     /* spacing */
     padding: 4px;
     border: none;
 
     /* colors */
+    color: rgb(92, 92, 92);
     background-color: var(--grey);
 
     /* appearance */
@@ -119,6 +126,7 @@
 .categorySelector:hover {
 
     /* colors */
+    color: black;
     background-color: var(--grey-highlighted);
 
     /* appearance */
@@ -128,6 +136,9 @@
 
 .searchbar {
 
+    /* layout */
+    flex: 1;
+
     /* sizing */
     height: 40px;
 
@@ -135,8 +146,7 @@
     margin: 0;
     padding: 8px 12px;
 
-    /* layout */
-    flex: 1;
+    /* typography */
 
     /* appearance */
     border: none;
@@ -211,8 +221,11 @@
     grid-column: 1/3;
     grid-row: 1;
 
+    /* spacing */
+    padding-left: 7px;
+
     /* colors */
-    color: #ef8704;
+    color: #e27c00;
 }
 
 #carticon {
@@ -220,6 +233,9 @@
     /* layout */
     grid-column: 1;
     grid-row: 2;
+
+    /* typography */
+    font-size: 18px;
 }
 
 #cartname {
@@ -255,6 +271,18 @@
 .secondaryAnchors {
 
     text-decoration: none;
+}
+
+.menubarsicon {
+
+    /* typography */
+    font-size: 30px;
+}
+
+.all {
+
+    /* typography */
+    font-weight: bolder;
 }
 
 /* ---------------------------------------------------------- */
