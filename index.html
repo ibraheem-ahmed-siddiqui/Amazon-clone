@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Head -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,101 +15,154 @@
     <title>Amazon</title>
 </head>
 
+
+<!-- Body -->
 <body>
 
     <!-- Header -->
     <header>
 
-        <!-- Navigation Bar -->
-        <nav class="navbar">
+        <!-- Main Navigation Bar -->
+        <nav class="main-navbar">
 
             <!-- Amazon Logo -->
-            <a class="logo" href="https://www.amazon.com" target="_blank">
+            <a class="logo-anchor" href="https://www.amazon.com" target="_blank">
                 <img id="logoimg" class="hoverborder" src="media/amazon_logo.png.png" alt="amazon">
             </a>
 
             <!-- Loction Box -->
-            <span class="locationbox hoverborder">
-                <p id="deliverto">Deliver to</p>
-                <i id="location" class="fa-solid fa-location-dot"></i>
+            <span class="locationBox-span hoverborder">
+                <p id="deliverto-para">Deliver to</p>
+                <i id="location-icon" class="fa-solid fa-location-dot"></i>
                 <h4>Pakistan</h4>
             </span>
 
             <!-- Search Container -->
-            <div class="searchContainer">
+            <div class="searchContainer-div">
 
                 <!-- Search Selection -->
-                <select name="category" class="categorySelector">
+                <select name="category" class="categorySelector-select">
 
                     <option value="all">All</option>
 
                 </select>
 
                 <!-- SearchBar -->
-                <input class="searchbar" type="text" placeholder="Search Amazon">
+                <input class="searchbar-input" type="text" placeholder="Search Amazon">
 
                 <!-- Search Button -->
-                <button class="searchButton">
+                <button class="searchButton-button">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
 
             </div>
 
-            <div class="hoverborder">
-                <img class="flag" src="media/us-flag.png" alt="English">
+            <!-- Language Selector Container -->
+            <div class="hoverborder languageSelectorContainer-div">
 
-                <select name="language" class="languageSelector">
+                <!-- USA Flag Image -->
+                <img class="flag-image" src="media/us-flag.png" alt="English">
+
+                <!-- Language Selector -->
+                <select name="language" class="languageSelector-select">
+
+                    <!-- English -->
                     <option value="english">
                         <h4>EN</h4>
                     </option>
+
+                    <!-- Espanol -->
                     <option value="espanol">
                         <h4>ES</h4>
                     </option>
+
+                    <!-- Arabic -->
                     <option value="arbi">
                         <h4>AR</h4>
                     </option>
+
                 </select>
+
             </div>
 
-            <div class="accounts hoverborder">
+            <!-- Accounts & Lists -->
+            <div class="accounts-div hoverborder">
                 <p>Hi, sign in</p>
                 <h4>Accoutns & Lists</h4>
             </div>
 
-            <div class="returnsnorder hoverborder">
+            <!-- Returns & Orders -->
+            <div class="returnsnorder-div hoverborder">
                 <p>Returns</p>
                 <h4>& Orders</h4>
             </div>
 
-            <div class="cart hoverborder">
-                <h4 id="cartnum">0</h4>
-                <i id="carticon" class="fa-solid fa-cart-shopping"></i>
-                <h4 id="cartname">Cart</h4>
+            <!-- Cart Container -->
+            <div class="cart-div hoverborder">
+
+                <!-- Cart Count -->
+                <h4 id="cartnum-h4">0</h4>
+
+                <!-- Cart Icon -->
+                <i id="carticon-icon" class="fa-solid fa-cart-shopping"></i>
+
+                <!-- Cart Name -->
+                <h4 id="cartname-h4">Cart</h4>
+
             </div>
-
+        
         </nav>
+        
 
-        <nav class="secondaryNavbar">
 
-            <span class="hoverborder menubox">
+        <!-- Secondary Navigation Bar -->
+        <nav class="secondaryNavbar-navbar">
 
-                <i id="menubarsicon" class="fa-solid fa-bars"></i>
-                <h4 id="menuall">All</h4>
+            <!-- Menu Box(Container) -->
+            <span class="hoverborder menubox-span">
+
+                <!-- MenuBars Icon -->
+                <i id="menubarsicon-icon" class="fa-solid fa-bars"></i>
+
+                <!-- Menu "All" -->
+                <h4 id="menuall-h4">All</h4>
 
             </span>
 
-            <a class="secondaryAnchors hoverborder" href="#">Today's Deals</a>
-            <a class="secondaryAnchors hoverborder" href="#">Prime Video</a>
-            <a class="secondaryAnchors hoverborder" href="#">Gift Cards</a>
-            <a class="secondaryAnchors hoverborder" href="#">Sell</a>
-            <a class="secondaryAnchors hoverborder" href="#">Customer Service</a>
-            <a class="secondaryAnchors hoverborder" href="#">Registry</a>
+            <!-- Secondary Navigation Bar Anchors -->
+            <a class="secondaryAnchors-anchors hoverborder" href="#">Today's Deals</a>
+            <a class="secondaryAnchors-anchors hoverborder" href="#">Prime Video</a>
+            <a class="secondaryAnchors-anchors hoverborder" href="#">Gift Cards</a>
+            <a class="secondaryAnchors-anchors hoverborder" href="#">Sell</a>
+            <a class="secondaryAnchors-anchors hoverborder" href="#">Customer Service</a>
+            <a class="secondaryAnchors-anchors hoverborder" href="#">Registry</a>
 
         </nav>
+
     </header>
 
+
+    <!-- Main Content -->
     <main>
-        <img id="homeimg" src="media/Home image.jpg" alt="Home">
+
+        <!-- Hero Section -->
+         <div class="hero-div">
+
+         </div>
+
+         <div class="productContainer-div">
+            
+             <div class="productBox">
+                <h2>Get your game on</h2>
+                <div class="imgContainer-div"></div>
+                <a href="#">Shop gaming</a>
+             </div>
+
+             <div class="productBox"></div>
+             <div class="productBox"></div>
+             <div class="productBox"></div>
+         </div>
+        
     </main>
 </body>
 
