@@ -463,6 +463,22 @@ main {
 
 }
 
+.smallProductBox-div {
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    
+    border: 1rem solid white;
+}
+
+.smallProductBoxAnchor-a {
+
+    cursor: pointer;
+} 
+
 .productBox4Image-img {
 
      /* sizing */
@@ -473,8 +489,6 @@ main {
 
     object-fit: contain;
     transform: scale(1.2);
-
-    border: 1rem solid white;
 
     /* overflow */
     overflow: hidden;
