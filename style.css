@@ -51,6 +51,7 @@ body {
     --backtotop: #37475a;
     --backtotophighlighted: #485769;
     --footer2: #131a22;
+    --footer-hr: #3a4553;
 }
 
 /* ---------------------------------------------------------- */
@@ -482,21 +483,21 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    
+
     border: 1rem solid white;
 }
 
 .smallProductBoxAnchor-a {
 
     cursor: pointer;
-} 
+}
 
 .productBox4Image-img {
 
-     /* sizing */
+    /* sizing */
     height: 100%;
     width: 100%;
-    
+
     /* spacing */
     object-fit: contain;
     transform: scale(1.2);
@@ -515,11 +516,6 @@ main {
 /* ---------------------------------------------------------- */
 
 
-.footPanel1-section {
-
-    /* colors */
-    background-color: var(--secondary-dark);
-}
 
 
 /* Footer Section */
@@ -536,6 +532,8 @@ main {
 
 }
 
+/* Back To Top */
+
 .backToTop-section {
 
     /* layout */
@@ -544,7 +542,7 @@ main {
     align-items: center;
 
     /* sizing */
-    height: 40px;
+    height: 49px;
 
     /* colors */
     color: var(--primary);
@@ -560,16 +558,31 @@ main {
     cursor: pointer;
 }
 
+/* Footer Panel 1 */
+
 .footPanel1-section {
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex: 1;
+
+    /* sizing */
+    width: 100%;
+
+    /* colors */
+    background-color: var(--secondary-dark);
+}
+
+.footListSection-section {
 
     /* layout */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex: 1;
-
-    /* sizing */
-    width: 100%;
 }
 
 .footerList-ul {
@@ -580,6 +593,9 @@ main {
 
     /* spacing */
     gap: 0.8rem;
+
+    /* typography */
+    list-style: none;
 }
 
 .footerList-ul h4 {
@@ -606,12 +622,69 @@ main {
     text-decoration: underline;
 }
 
-.footPanel2-section {
+.footerdivider-hr {
 
+    /* colors */
+    color: var(--footer-hr);
+    background-color: var(--footer-hr);
+}
+
+.footerOptionsSection-section {
+
+    /* layout */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex: 1;
+    
 }
+
+.footerbox-div {
+
+    /* layout */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* sizing */
+    height: 40px;
+    width: 100px;
+
+    /* colors */
+    color: var(--primary);
+
+    border: 1px solid var(--primary);
+}
+
+.footerbox-div a {
+
+    color: var(--primary);
+    text-decoration: none;
+}
+
+#globeIcon-i {
+
+    /* sizing */
+    font-size: 18px;
+    color: var(--primary);
+}
+
+
+
+/* Footer Panel 2 */
+
+.footPanel2-section {
+
+    /* layout */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* sizing */
+    flex: 1;
+
+    /* colors */
+    background-color: var(--footer2);
+}
+
 
 /* ---------------------------------------------------------- */
