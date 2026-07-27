@@ -25,6 +25,13 @@ nav {
     z-index: 1;
 }
 
+body {
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+}
+
 :root {
 
     --primary: white;
@@ -40,6 +47,10 @@ nav {
 
     --grey: #e6e6e6;
     --grey-highlighted: #d4d4d4;
+
+    --backtotop: #37475a;
+    --backtotophighlighted: #485769;
+    --footer2: #131a22;
 }
 
 /* ---------------------------------------------------------- */
@@ -342,6 +353,7 @@ main {
     align-items: center;
 
     /* sizing */
+    flex: 1;
     min-height: 100vh;
     width: 100%;
 
@@ -486,7 +498,6 @@ main {
     width: 100%;
     
     /* spacing */
-
     object-fit: contain;
     transform: scale(1.2);
 
@@ -500,5 +511,95 @@ main {
     text-decoration: none;
 }
 
+
+/* ---------------------------------------------------------- */
+
+
+.footPanel1-section {
+
+    /* colors */
+    background-color: var(--secondary-dark);
+}
+
+
+/* Footer Section */
+
+.homeFooter-footer {
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+
+    /* sizing */
+    height: 900px;
+    width: 100%;
+
+}
+
+.backToTop-section {
+
+    /* layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* sizing */
+    height: 40px;
+
+    /* colors */
+    color: var(--primary);
+    background-color: var(--backtotop);
+}
+
+.backToTop-section:hover {
+
+    /* colors */
+    background-color: var(--backtotophighlighted);
+
+    /* appearnace */
+    cursor: pointer;
+}
+
+.footPanel1-section {
+
+    /* layout */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+
+    /* sizing */
+    width: 100%;
+}
+
+.footerList-ul {
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+}
+
+.footerList-ul h4 {
+
+    /* colors */
+    color: var(--primary);
+}
+
+.footerList-ul a {
+
+    /* colors */
+    color: var(--primary);
+
+    /* typography */
+    text-decoration: none;
+}
+
+.footPanel2-section {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
 
 /* ---------------------------------------------------------- */
