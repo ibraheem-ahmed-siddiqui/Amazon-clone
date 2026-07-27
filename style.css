@@ -577,9 +577,15 @@ main {
     /* layout */
     display: flex;
     flex-direction: column;
+
+    /* spacing */
+    gap: 0.8rem;
 }
 
 .footerList-ul h4 {
+
+    /* typography */
+    font-size: 1.05rem;
 
     /* colors */
     color: var(--primary);
@@ -587,11 +593,17 @@ main {
 
 .footerList-ul a {
 
-    /* colors */
-    color: var(--primary);
-
     /* typography */
     text-decoration: none;
+
+    /* colors */
+    color: var(--light);
+
+}
+
+.footerList-ul a:hover {
+
+    text-decoration: underline;
 }
 
 .footPanel2-section {
