@@ -52,6 +52,9 @@ body {
     --backtotophighlighted: #485769;
     --footer2: #131a22;
     --footer-hr: #3a4553;
+
+    --butonyellow: #ffd814;
+    --butonyellowhighlighted: #ffce12;
 }
 
 /* ---------------------------------------------------------- */
@@ -526,6 +529,83 @@ main {
 }
 
 
+/* Sign In For Recommendations */
+
+.signinForRecommendationsWrapper-section {
+
+    /* layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* sizing */
+    height: 190px;
+    width: 100%;
+
+    /* spacing */
+    margin-top: 1rem;
+
+    /* colors */
+    background-color: var(--primary);
+}
+
+.signinForRecommendations-section {
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* sizing */
+    height: 78%;
+    width: 100%;
+
+    /* spacing */
+    gap: 0.8rem;
+
+    /* appearance */
+    border: 1px solid var(--grey-highlighted);
+}
+
+.signinForRecommendations-section h2 {
+
+    /* typography */
+    font-size: 1.55rem;
+}
+
+.buttonTextContainer-span {
+    
+    /* layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* sizing */
+    height: 30px;
+    width: 244px;
+
+    /* colors */
+    background-color: var(--butonyellow);
+
+    /* appearance */
+    border-radius: 15px;
+}
+
+.buttonText-a {
+
+    /* spacing */
+    padding: 5px 11px;
+
+    /* typography */
+    font-size: 0.95rem;
+    font-weight: 500;
+
+    /* appearance */
+    text-decoration: none;
+}
+
+
 /* ---------------------------------------------------------- */
 
 
@@ -542,7 +622,7 @@ main {
     /* sizing */
     height: 900px;
     width: 100%;
-    
+
     /* spacing */
     /* margin-top: 2rem; */
 
@@ -667,7 +747,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .footerPanel1logo-anchor-a {
@@ -699,7 +779,7 @@ main {
     /* sizing */
     height: 40px;
     width: 160px;
-    
+
     /* spacing */
     gap: 0.5rem;
 
