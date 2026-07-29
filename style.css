@@ -529,6 +529,9 @@ main {
     /* sizing */
     height: 900px;
     width: 100%;
+    
+    /* spacing */
+    /* margin-top: 2rem; */
 
 }
 
@@ -558,6 +561,12 @@ main {
     cursor: pointer;
 }
 
+.backToTop-section p {
+
+    /* typography */
+    font-size: 0.9rem;
+}
+
 /* Footer Panel 1 */
 
 .footPanel1-section {
@@ -580,8 +589,10 @@ main {
 
     /* layout */
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+
+    /* spacing */
     flex: 1;
 }
 
@@ -593,6 +604,7 @@ main {
 
     /* spacing */
     gap: 0.8rem;
+    margin: 3rem 3.5rem;
 
     /* typography */
     list-style: none;
@@ -611,9 +623,10 @@ main {
 
     /* typography */
     text-decoration: none;
+    font-size: 0.95rem;
 
     /* colors */
-    color: var(--light);
+    color: #d4d4d4;
 
 }
 
@@ -624,18 +637,43 @@ main {
 
 .footerdivider-hr {
 
+    /* sizing */
+    height: 2px;
+
     /* colors */
     color: var(--footer-hr);
     background-color: var(--footer-hr);
+
+    /* appearance */
+    border: none;
 }
 
 .footerOptionsSection-section {
 
     /* layout */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     
+}
+
+.footerPanel1logo-anchor-a {
+
+    height: 42px;
+    margin: 1rem;
+}
+
+.footerPanel1RegionOptions-div {
+
+    /* layout */
+    display: flex;
+    align-items: center;
+
+    /* sizing */
+
+    /* spacing */
+    gap: 2rem;
+    margin: 1rem;
 }
 
 .footerbox-div {
