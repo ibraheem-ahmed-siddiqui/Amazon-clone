@@ -438,6 +438,14 @@ main {
 
     /* appearance */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+    /* animations */
+    transition: 0.2s ease-in-out;
+}
+
+.productBox:hover {
+
+    transform: translateY(-10px);
 }
 
 .productBox h2 {
@@ -487,8 +495,13 @@ main {
     border: 1rem solid white;
 }
 
+/* ERROR HERE */
 .smallProductBoxAnchor-a {
 
+    /* colors */
+    color: var(--secondary-dark);
+
+    /* appearance */
     cursor: pointer;
 }
 
@@ -659,7 +672,7 @@ main {
 
 .footerPanel1logo-anchor-a {
 
-    height: 42px;
+    /* height: 42px; */
     margin: 1rem;
 }
 
@@ -680,17 +693,22 @@ main {
 
     /* layout */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
     /* sizing */
     height: 40px;
-    width: 100px;
+    width: 160px;
+    
+    /* spacing */
+    gap: 0.5rem;
 
     /* colors */
     color: var(--primary);
 
-    border: 1px solid var(--primary);
+    /* appearance */
+    border: 1px solid var(--light);
+    border-radius: 3px;
 }
 
 .footerbox-div a {
