@@ -96,7 +96,7 @@ body {
 
     /* sizing */
     height: 60px;
-    min-width: 100%;
+    width: 100%;
 
     /* spacing */
     padding: 5px;
@@ -495,7 +495,16 @@ main {
     justify-content: space-between;
     align-items: start;
 
+    /* appearance */
     border: 1rem solid white;
+
+    /* animations */
+    transition: 0.2s ease-in-out;
+}
+
+.smallProductBox-div:hover {
+
+    transform: translateY(-3px);
 }
 
 /* ERROR HERE */
@@ -565,7 +574,8 @@ main {
     gap: 0.8rem;
 
     /* appearance */
-    border: 1px solid var(--grey-highlighted);
+    border-top: 1px solid var(--grey-highlighted);
+    border-bottom: 1px solid var(--grey-highlighted);
 }
 
 .signinForRecommendations-section h2 {
@@ -601,8 +611,17 @@ main {
     font-size: 0.95rem;
     font-weight: 500;
 
+    /* colors */
+    color: var(--secondary-dark);
+
     /* appearance */
     text-decoration: none;
+}
+
+.newCustomerOptions {
+
+    /* typography */
+    font-size: 0.75rem;
 }
 
 
@@ -811,15 +830,27 @@ main {
 .footPanel2-section {
 
     /* layout */
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    justify-content: center;
     align-items: center;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 
-    /* sizing */
+    /* spacing */
     flex: 1;
 
     /* colors */
     background-color: var(--footer2);
+}
+
+.footPanel2Anchors-a h4 {
+
+    color: var(--primary);
+}
+
+.footPanel2Anchors-a p {
+
+    color: var(--light);
 }
 
 
