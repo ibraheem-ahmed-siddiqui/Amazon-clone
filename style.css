@@ -843,13 +843,39 @@ main {
     background-color: var(--footer2);
 }
 
-.footPanel2Anchors-a h4 {
+.footPanel2Anchors-a {
 
+    /* layout */
+    place-self: center;
+
+    /* typography */
+    text-decoration: none;
+}
+
+.footPanel2Anchors-a:hover {
+    
+    /* typography */
+    text-decoration: underline;
+    text-decoration-color: var(--light);
+}
+
+.footPanel2Anchors-a h5 {
+
+    /* typography */
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    /* colors */
     color: var(--primary);
 }
 
 .footPanel2Anchors-a p {
 
+    /* typography */
+    font-size: 0.75rem;
+    font-weight: 300;
+
+    /* colors */
     color: var(--light);
 }
 
