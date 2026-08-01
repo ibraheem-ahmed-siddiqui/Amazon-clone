@@ -65,6 +65,13 @@ body {
 /* ---------------------------------------------------------- */
 .hoverborder {
 
+    /* layout */
+    display: grid;
+    place-items: center;
+
+    /* sizing */
+    height: 100%;
+
     /* spacing */
     padding: 5px;
 
@@ -127,6 +134,11 @@ body {
     display: grid;
     grid-template-columns: 2;
     grid-template-rows: 2;
+
+    /* sizing */
+    height: auto;
+
+    gap: 0;
 
 }
 
@@ -229,6 +241,20 @@ body {
     cursor: pointer;
 }
 
+.languageSelectorContainer-div {
+
+    /* layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* sizing */
+    height: 40px;
+
+    /* spacing */
+    gap: 0.4rem;
+}
+
 .languageSelector-select {
 
     /* sizing */
@@ -249,6 +275,30 @@ body {
 
     /* sizing */
     width: 22px;
+}
+
+.accounts-div {
+    
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    /* sizing */
+    height: 100%;
+}
+
+.returns&orders-div {
+    
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    /* sizing */
+    height: 100%;
 }
 
 .cart-div {
@@ -318,6 +368,13 @@ body {
     font-weight: 480;
     text-decoration: none;
 
+}
+
+#secondaryAnchor-sell-a {
+
+    /* spacing */
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
 }
 
 .menubox-span {
@@ -401,7 +458,7 @@ main {
 
 /* Product Section */
 
-.productContainer-div {
+.productContainer-section {
 
     /* layout */
     display: flex;
@@ -507,8 +564,11 @@ main {
     transform: translateY(-3px);
 }
 
-/* ERROR HERE */
+
 .smallProductBoxAnchor-a {
+
+    /* positioning */
+    z-index: 1;
 
     /* colors */
     color: var(--secondary-dark);
@@ -883,6 +943,11 @@ main {
 
     /* colors */
     color: var(--light);
+}
+
+#last1anchor-a {
+
+    grid-column: 2;
 }
 
 
